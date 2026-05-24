@@ -1,0 +1,41 @@
+# Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.env
+.venv/
+env/
+venv/
+ENV/
+
+# # Config files
+# config.json
+
+# # Preprocessing outputs
+# preprocessing/train.csv
+# preprocessing/test.csv
+# preprocessing/exog_train.csv
+# preprocessing/exog_test.csv
+# preprocessing/hyperparameters.json
+# preprocessing/metrics.json
+
+# Model files
+# model/sarima_model.pkl
+
+# Logs
+*.log
+logs/
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# # Docker
+# *.dockerfile
+# *.tar
