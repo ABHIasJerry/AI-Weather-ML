@@ -18,12 +18,6 @@ Preprocessing outputs (train/test splits, hyperparameters, metrics) are stored i
 - Dockerized for easy deployment.
 
 ---
-
-## 📂 Project Structure
-
-
----
-
 ## 📂 Project Structure
 
 ├── weather_sarima.py   # Training + FastAPI service
@@ -37,16 +31,16 @@ Preprocessing outputs (train/test splits, hyperparameters, metrics) are stored i
 ## 🛠️ Setup
 
 ### 1. Train the model
-Edit `weather_sarima.py` to load your historical weather data (e.g., temperature series).  
+Edit `xxx.py` to load your historical weather data (e.g., temperature series).  
 Run locally:
 
 ```bash
-python weather_sarima.py
+python xx.py
 
 
 Run FastAPI locally
 bash
-uvicorn weather_sarima:app --reload --host 0.0.0.0 --port 8000
+uvicorn app:app --reload --host 0.0.0.0 --port 8000
 Access the API at:
 
 Swagger docs → http://localhost:8000/docs
